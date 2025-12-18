@@ -1,0 +1,2 @@
+1. You can invoke the useradd command line function using subprocess.run(). You pass in a list with the first element being "useradd".
+2. You add arguments by putting them in the list. The last argument has to be the username. Other flags set other things: -m creates a home directory, -G creates groups, -c adds a comment to the account.
